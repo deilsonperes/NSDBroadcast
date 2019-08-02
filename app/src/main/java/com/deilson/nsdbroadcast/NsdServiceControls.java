@@ -19,7 +19,7 @@ import static com.deilson.nsdbroadcast.NsdUtils.JSON_S_PORT;
 import static com.deilson.nsdbroadcast.NsdUtils.JSON_S_TYPE;
 
 @SuppressWarnings({"CharsetObjectCanBeUsed", "FieldCanBeLocal", "unused"})
-class NsdServiceControls {
+public class NsdServiceControls {
     private EasyLogger log = new EasyLogger(NsdUtils.TAG, getClass());
 
     private String serviceName;
